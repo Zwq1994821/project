@@ -1,0 +1,248 @@
+.main{
+  overflow: hidden;}
+/*主体左侧内容*/
+.aside-left{
+  float:left;
+  width:300px;
+  border:1px solid #dddddd;
+  background:#fff;
+}
+.ret-title{
+  padding-left: 12px;
+  margin: 20px 0px 22px 15px;
+  font: 24px/26px 微软雅黑;
+  border-left: 5px solid rgb(255, 154, 106);
+}
+.ret-check-all{
+  width: 250px;
+  padding-bottom: 10px;
+  margin: 0 0 16px 26px;
+  border-bottom: 1px dashed #ccc;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.ret-check-all>span{
+  font-family: "宋体";
+  height: 22px;
+  line-height: 22px;
+  margin-right: 10px;
+}
+.ret-check-all>a{
+  background: #ff9a6a url(../images/comic_org_item.png) no-repeat top right;
+  color: #fff;
+  height: 21px;
+  line-height: 21px;
+  display: block;
+  overflow: hidden;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 0 16px 0 5px;
+}
+.ret-tags-type{
+  width: 250px;
+  margin: 0 0 16px 26px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  font-family: 宋体, Arial, "Segoe UI", sans-serif;
+}
+div.no-border{
+  border-bottom: 0;
+}
+.ret-tags-title{
+  height: 20px;
+  padding-left: 24px;
+  margin-bottom: 10px;
+  font: normal 16px/20px "微软雅黑";
+  color: #333;
+  background: url(../images/page_comic_all.png)no-repeat;
+}
+.ret-tags-type h3.bg-position-1{
+  background-position: 0 -88px;
+}
+.ret-tags-type h3.bg-position-2{
+  background-position: 0 -66px;
+}
+.ret-tags-type h3.bg-position-3{
+  background-position: 0 -21px;
+}
+.ret-tags-type h3.bg-position-4{
+  background-position: 0 0;
+}
+.ret-tags-type h3.bg-position-5{
+  background-position: 0 -42px;
+}
+.ret-tags-type h3.bg-position-6{
+  background-position: 0 -111px;
+}
+.ret-tags-type h3.bg-position-7{
+  background-position: 0 -132px;
+}
+.ret-tags-items{
+  width:260px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.ret-tags-items>a{
+  padding: 0 5px;
+  margin-right: 9px;
+  margin-bottom: 4px;
+  line-height: 22px;
+  color: #666;
+  transition:all .2s linear;
+}
+.ret-tags-items>a.active,.ret-tags-items>a:hover{
+  color: #fff;
+  background-color: #ff9a6a;
+}
+
+/*主体右侧内容*/
+.aside-right{
+  float: right;
+  width:870px;
+}
+.ret-search-head{
+  height: 40px;
+  line-height: 40px;
+  padding: 2px 2px 0 1px;
+  background-color: #f3f3f3;
+  display:flex;
+  justify-content: space-between;
+  border:1px solid #ddd;
+  border-bottom: 0;
+}
+.ret-search-type{
+  display:flex;
+}
+.ret-search-type li a{
+  display: block;
+  width: 66px;
+  height: 39px;
+  padding-left: 20px;
+  line-height: 39px;
+  text-align: center;
+  color: #666;
+  border-right: 1px solid #fff;
+  background: url(../images/page_comic_all.png) no-repeat 13px -396px;
+}
+.ret-search-type li.active a{
+  background-position: 13px -186px;
+  background-color: #fff;
+  color:#ff9a6a;
+}
+/*全部动漫列表内容*/
+.ret-search-list{
+  width:869px;
+  display:flex;
+  flex-wrap: wrap;
+  border-left:1px solid #ddd;
+  background:#fff;
+}
+.ret-search-item{
+  width: 389.5px;
+  height: 180px;
+  padding: 24px 20px 24px 24px;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+dl.tab_list{
+  width:100%;
+  margin:0;
+  display:flex;
+}
+dl.tab_list>dd{
+  width:235px;
+  height:180px;
+  margin-top:0;
+  margin-left:14px;
+  color:#333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ret-works-title{
+  width: 264px;
+  height: 20px;
+}
+.ret-works-title>a{
+  float: left;
+  margin-right: 8px;
+  color: rgb(51, 51, 51);
+  font: 18px/20px 微软雅黑;
+}
+.ret-works-title>i{
+  float: left;
+  width: 31px;
+  height: 19px;
+  margin-right: 7px;
+  background:url(../images/ac_global.png) no-repeat;
+}
+.ret-works-title>i.qy{
+  background-position: -135px -272px;
+}
+.ret-works-title>i.jp{
+  background-position: -167px -292px;
+}
+.ret-writer{
+  font-size: 12px;
+  font-family: 宋体, Arial, "Segoe UI", sans-serif;
+}
+.tab_list dd p.ret-works-tags>a{
+  margin-right:10px;
+  color:#333;
+}
+.tab_list dd p.ret-works-tags>a:hover{
+  color:#FA8729;
+}
+.ret-works-decs{
+  color:#999;
+}
+.tab_list .view-btn{
+  display: block;
+  width: 90px;
+  height: 36px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border:1px solid #E0CFB1;
+  border-radius: 3px;
+  font: 16px/36px 微软雅黑;
+  text-align: center;
+  background:#FFFBF6;
+  color:#B6724D;
+}
+.tab_list .view-btn:hover{
+  background:#FCF1E1;
+}
+
+/*页签样式*/
+.pages{
+  width:868px;
+  height:72px;
+  background:#fff;
+  border:1px solid #ddd;
+  border-top:0;
+}
+.ret-page{
+  float: right;
+  margin: 20px 0;
+  margin-right: 30px;
+  text-align: center;
+}
+.ret-page a{
+  font-size: 14px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  margin: 0 2px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+}
+.ret-page a:hover,.ret-page a.active{
+  color: #fff;
+  background-color: #ff9a6a;
+  border: 1px solid #ef7559;
+}

@@ -1,0 +1,335 @@
+/* 清除公共样式 */
+body,div,p,h1,h2,h3,h4,h5,h6,ol,ul,li,dl,dt,dd,button,input{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+i{
+  font-style: normal;
+}
+u{
+  text-decoration: none;
+}
+em{
+  font-style: normal;}
+a{text-decoration:none;color:#666;}
+a:hover{color:#FF9A6A;}
+
+/* 公共样式改写 */
+
+body{
+  color:#666;
+  font-size:12px;
+  font-family: 宋体, Arial, "Segoe UI", sans-serif;
+  background:url(../images/ac_body_bg.png);
+}
+.container{
+  width:1200px;
+  margin:0 auto;
+}
+.container:before{
+  content: ' ';
+  display: table;
+}
+.container:after{
+  content: ' ';
+  display: table;
+  clear: both;
+}
+.fide{
+  display:none;
+}
+.in{
+  display:block;
+}
+.hgh-0{
+  height:0;
+  overflow:hidden;
+  opacity:0;
+  transition:all .2s linear;
+}
+.hgh-1{
+  height:90px;
+  overflow:hidden;
+  opacity:1;
+  transition:all .2s linear;
+}
+.hgh-2{
+  height:60px;
+  overflow:hidden;
+  opacity:1;
+  transition:all .2s linear;
+}
+.zIndex_1{
+  z-index:10;
+  opacity:1;
+  transition:all .2s linear;
+}
+.zIndex_0{
+  z-index:0;
+  opacity:0;
+  transition:all .2s linear;
+}
+.lf{float:left;}
+.rt{float:right;}
+
+/*header 部分样式*/
+.header{
+  height: 56px;
+  background: url(../images/ac_global.png) 0 -542px repeat-x;
+  margin-bottom: 40px;
+}
+.header-list{
+  height:52px;
+  display: flex;
+  justify-content: flex-start;
+}
+.logo>a{
+  display: block;
+  width: 110px;
+  height: 35px;
+  margin-top:8px;
+  background: url(../images/xf_logo_o.png) no-repeat;
+  background-size: 100% 100%;
+}
+.top-nav{
+  display: flex;
+  height:52px;
+  line-height: 52px;
+  margin-left:20px;
+}
+.top-nav>li:hover,.top-nav>li.active,.top-nav>li:hover>a,.top-nav>li.active>a{
+  background:#FA9144;
+  color:#fff;
+}
+.top-nav a{
+  display: block;
+  padding:0 20px;
+  height: 52px;
+  font-size: 14px;
+  color:#333;
+}
+
+/*footer 底部样式*/
+#footer{
+  margin-top:80px;
+  width:100%;
+  height:260px;
+  background:#F69057 url("../images/ac_footer_bg.jpg") 50% 78px no-repeat;
+  position: relative;
+}
+.footer_top{
+  width:100%;
+  height:10px;
+  background: url(../images/ac_global.png) 0 -703px repeat-x;
+  position: absolute;
+  top:-9px;
+}
+.footer_main{
+  width:1200px;
+  height:260px;
+  margin:0 auto;
+  padding-top:20px;
+  box-sizing: border-box;
+  text-align: center;
+  color:#fff;
+}
+.footer_main p.img>img{
+  width:74px;
+  margin:0 34px;
+}
+.footer_main div.txt{
+  margin-top:40px;
+}
+.footer_main p{
+  margin-top:10px;
+}
+.footer_main p>a{
+  margin:0 10px;
+  color:#fff;
+}
+.footer_main p>a:hover{
+  text-decoration: underline;
+}
+/*右侧固定的标题栏*/
+#right_fixed{
+  width:40px;
+  height:100%;
+  position:fixed;
+  right:0;
+  top:0;
+  z-index:1000;
+  border:1px solid #e3e3e3;
+  background:#fff;
+  box-sizing: border-box;
+}
+
+.login{
+  width:40px;
+  height:47px;
+  margin-top:25px;
+}
+.login>a{
+  display: block;
+  width:40px;
+  height:47px;
+}
+.login>a>img{
+  width:25px;
+  margin-top:11px;
+  margin-left:5px;
+  border:1px solid #D4CDC7;
+  border-radius: 4px;
+}
+.sideComCodeWrap{
+  position: relative;
+  width:40px;
+  height:60px;
+  top:60px;
+}
+.sideComCodeWrap>span{
+  display: inline-block;
+  width:21px;
+  height:21px;
+  background: url("../images/navCom_icon_sprite.png") no-repeat -489px 0;
+  margin-top:20px;
+  margin-left:8px;
+}
+.sideComCodeImg{
+  position: absolute;
+  right: 35px;
+  top: -46px;
+  width:164px;
+  height:195px;
+  background: url("../images/navCom_icon_sprite.png") no-repeat 0 -56px;
+  transition:all .2s linear;
+}
+.sideComCodeImg>img{
+  display: block;
+  width: 121px;
+  height: 121px;
+  margin-top: 17px;
+  margin-left: 19px;
+}
+.sideComCodeImg .txt-1{
+  text-align: center;
+  margin-top: 6px;
+}
+.sideComCodeImg .txt-2{
+  text-align: center;
+  font-weight: bold;
+  color: #ff9a6a;
+}
+.sideList li{
+  width:40px;
+  height:60px;
+  margin-top:20px;
+}
+.sideList li a{
+  display: block;
+  width:40px;
+  height: 60px;
+  padding-bottom:10px;
+  transition:all .2s linear;
+}
+.sideList li a span{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 9px 0 9px 8px;
+}
+.sideList li a p{
+  text-align: center;
+}
+.sideList li:first-child a span{
+  background: url("../images/navCom_icon_sprite.png") no-repeat -203px -26px;
+}
+.sideList li:last-child a span{
+  background: url("../images/navCom_icon_sprite.png") no-repeat -151px -26px;
+}
+.sideList li a:hover{
+  color:#fff;
+  background:#FF9A6A;
+  transition:all .2s linear;
+}
+.sideList li:first-child a:hover span{
+  background-position: -229px 0;
+}
+.sideList li:last-child a:hover span{
+  background-position:  -177px 0;
+}
+.to_top a{
+  width:40px;
+  height:60px;
+  line-height:60px;
+  text-align:center;
+  font-weight:bold;
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+.to_top a:hover{
+  background:#FF9A6A;
+  color:#fff;
+  transition:background 0.5s linear;
+}
+
+dl.tab_list{
+  float:left;
+  height:251px;
+  width:135px;
+  margin-right:17px;
+}
+dl.tab_list>dt{
+  height:179px;
+}
+dl.tab_list>dt>p{
+  float:left;
+  width:133px;
+  height:177px;
+  border:1px solid #BEBEBE;
+  position:relative;
+}
+.shadow{
+  position:absolute;
+  width:131px;
+  height:175px;
+  top:-1px;
+  left:-1px;
+  background:rgba(0,0,0,0.1);
+  border:2px solid #FF9A6A;
+  display:none;
+}
+dl.tab_list>dt>p:hover span.shadow{
+  display:block;
+  cursor:pointer;
+}
+dl.tab_list>dt>p a{
+  position:absolute;
+  width:125px;
+  height:22px;
+  line-height:22px;
+  bottom:0;
+  left:-1px;
+  background:rgba(0,0,0,0.6);
+  color:#fff;
+  text-align:right;
+  padding-right:10px;
+}
+dl.tab_list>dd{
+  margin-top:7px;
+  color:#999;
+}
+dl.tab_list>dd>a{
+  font-size:14px;
+  color:#333;
+}
+dl.tab_list>dd a:hover{
+  color:#FF9A6A;
+}
+dl.tab_list>dd p{
+  margin-top:7px;
+}
+dl.tab_list>dd p a{
+  color:#999;
+}

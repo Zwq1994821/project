@@ -1,0 +1,81 @@
+.ground-content{
+  padding: 30px 34px 0;
+  color: #333;
+  margin: 30px auto 20px;
+  border: 1px solid #dad8d4;
+  width: 630px;
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.title{
+  width:630px;
+  height:70px;
+}
+.title-img{
+  width:70px;
+  height:70px;
+  position: relative;
+}
+.title-img img{
+  border-radius: 50%;
+}
+.title-img i.king{
+  position: absolute;
+  top: 44px;
+  left: 48px;
+  background: url("../images/new_detail/sc_img_topic_sprite.png") no-repeat -222px -36px;
+  width: 20px;
+  height: 20px;
+  z-index: 10;
+}
+.title-txt{
+  width:224px;
+  height:65px;
+  margin-left:30px;
+}
+.title-txt p.name{
+  font: 32px "Microsoft Yahei";
+  color: #f89158;
+}
+.title-txt p.time{
+  font: 18px "Microsoft Yahei";
+  color: #c5c5c5;
+}
+.topic-content{
+  height: 860px;
+  overflow: hidden;
+  line-height: 33px;
+}
+.topic-content h3{
+  font: 28px/75px "Microsoft Yahei";
+}
+.topic-content span{
+  display: inline-block;
+  width: 44px;
+  height: 34px;
+  margin-right: 3px;
+  background-image: url("../images/new_detail/sc_img_welfare.png");
+  background-repeat: no-repeat;
+}
+.topic-content span.boutique{
+  background-position: -280px -459px;
+}
+.topic-content span.top{
+  background-position: -226px -459px;
+}
+.topic-content p{
+  display: inline;
+  font: 22px "Microsoft YaHei";
+  margin-top:-10px;
+  vertical-align: top;
+}
+.load-all{
+  background: url("../images/ground/sc_img_welfare.png") no-repeat -214px -384px;
+  background-size: 679px 618px;
+  width: 144px;
+  height: 29px;
+  margin:0 auto 30px;
+  font: 28px/29px "Microsoft Yahei";
+  color: #f89158;
+  cursor: pointer;
+}

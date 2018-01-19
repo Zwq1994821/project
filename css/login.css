@@ -1,0 +1,153 @@
+/*登陆页面样式*/
+body{
+  background:#fff;
+}
+.header{
+  height:86px;
+  background:url(../images/login/rl_topbg.png);
+  margin-bottom:0;
+}
+.top{
+  height:106px;
+  background:url("../images/login/rl_top.png") no-repeat;
+  background-size:100% 100%;
+}
+.top-txt{
+  height:25px;
+  border-bottom:2px solid #ddd;
+  margin-top:20px;
+}
+.top-txt p{
+  width: 120px;
+  height: 47px;
+  margin: 0 auto;
+}
+/*页头*/
+/*主体*/
+.content-left{
+  width: 480px;
+  float: left;
+  line-height: 1;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+}
+.inner{
+  margin: 0 30px;
+  padding: 30px;
+}
+.inner img.ewm{
+  margin:10px auto;
+}
+.qr-title{
+  color: #222;
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+  font-family: "microsoft yahei";
+}
+.inner img.bg{
+  position: absolute;
+  left: -5px;
+  bottom: -40px;
+}
+
+.content-line{
+  float: left;
+  width: 1px;
+  height: 240px;
+  background-color: #ddd;
+  margin:50px 0 0 120px;
+}
+
+/*表单部分*/
+.alert{
+  color:red;
+}
+
+
+.content-right{
+  margin-top:50px;
+  float: right;
+  margin-right: 80px;
+  width:400px;
+}
+
+.form-group{
+  line-height:70px;
+}
+.form-group input{
+  width:400px;
+  height:40px;
+  box-sizing: border-box;
+  padding:10px 0 10px 10px;
+  border:1px solid #ddd;
+  color:#aaa;
+  font-size: 14px;
+  border-radius: 4px;
+  outline:0;
+  transition: all .3s linear;
+}
+.form-group input:focus{
+  border-color:#ff8400;
+  background:#FFFA67;
+  color:#00A0D8;
+}
+
+.forget{
+  display: block;
+  color:#ff8400;
+  text-decoration: underline;
+  text-align: right;
+}
+.form-btn{
+  overflow: hidden;
+}
+.login-btn{
+  width: 184px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #E57700;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #ff8400;
+  margin-top: 10px;
+  float:left;
+}
+
+.register-btn{
+  width: 184px;
+  line-height: 38px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  color: #555;
+  display: inline-block;
+  height: 36px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin: 10px 0 0 27px;
+  float:left;
+}
+
+.way{
+  margin-top:15px;
+}
+.weibo{
+  height: 21px;
+  padding-left: 27px;
+  padding-top: 3px;
+  float: left;
+  background: url(../images/login/snsicon.png) no-repeat  0 0;
+}
+.qq{
+  height: 21px;
+  padding-left: 29px;
+  margin-left: 50px;
+  padding-top: 3px;
+  float: left;
+  background: url(../images/login/snsicon.png) no-repeat 0 -41px;
+}

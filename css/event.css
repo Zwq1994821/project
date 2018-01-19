@@ -1,0 +1,356 @@
+.header{
+  margin-bottom:0;
+}
+/*页面背景*/
+.banner{
+  width:100%;
+  height:500px;
+  background: url("../images/event/head_wrap.jpg") no-repeat center top;
+  position: relative;
+}
+.banner-con{
+  background: url("../images/event/head_con.jpg") no-repeat center top;
+  height: 500px;
+}
+.con1{
+  background: url("../images/event/con1.jpg") no-repeat center top;
+  height: 1215px;
+}
+.con2{
+  background: url("../images/event/con2.jpg") no-repeat center top;
+  height: 600px;
+  overflow: hidden;
+}
+.con3{
+  background: url("../images/event/con3.jpg") no-repeat center top;
+  height: 903px;
+}
+.mid{
+  width: 1000px;
+  margin: 0 auto;
+  font-family: "microsoft yahei";
+}
+/*热播中*/
+/*导航*/
+.hot_wrap{
+  padding-top: 245px;
+}
+.hot_links{
+  background: url("../images/event/hot_links_bg.png") no-repeat center top;
+  height: 105px;
+  padding: 18px 0 0;
+  margin-bottom: 30px;
+}
+.hot_links li.no_bor{
+  border:0;
+}
+.hot_links li{
+  position: relative;
+  float: left;
+  border-left: 1px solid #2f628c;
+  padding: 6px 21px;
+  margin-left: -1px;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+.hot_links li a.links_a{
+  color: #c2eeff;
+  padding-left: 22px;
+  display: block;
+  height: 21px;
+  line-height: 21px;
+  overflow: hidden;
+  background: url("../images/event/links_sprite.png") no-repeat -305px 3px;
+}
+.hot_links li a.links_a:hover{
+  color: #d59348;
+  background-position: -305px -38px;
+}
+/*列表*/
+.hot_list li{
+  float: left;
+  width: 314px;
+  position: relative;
+}
+/*列表中大图片的样式*/
+.hot_list li.lar{
+  margin-right: 28px;
+}
+.hot_list li.lar a{
+  display: block;
+  background: url("../images/event/lar_bor.png") no-repeat;
+  width: 314px;
+  height: 505px;
+  overflow: hidden;
+}
+.hot_list li.lar a:hover{
+  background: url("../images/event/lar_bor_hov.png") no-repeat;
+  width: 314px;
+  height: 505px;
+}
+.hot_list li.lar a img{
+  display: block;
+  margin: 7px auto 0;
+  opacity: .8;
+  transition: all .2s ease;
+  border: 1px solid #c2eeff;
+}
+.hot_list li.lar a img:hover{
+  opacity: 1;
+}
+.hot_list li.lar div.txt_box{
+  width: 298px;
+  position: absolute;
+  top: 388px;
+  left: 8px;
+  background: rgba(0,0,0,.8);
+  height: 108px;
+}
+.hot_list li.lar p.txt_tit{
+  height: 30px;
+  line-height: 24px;
+  padding-left: 24px;
+  padding-top: 25px;
+}
+.hot_list li.lar p.txt_tit b{
+  font-size: 24px;
+  color: #c2eeff;
+  margin-right: 10px;
+}
+.hot_list li.lar p.txt_tit span.sm_btn{
+  display: inline-block;
+  width: 90px;
+  height: 27px;
+  line-height: 27px;
+  font-size: 14px;
+  color: #061422;
+  text-align: center;
+  background: #ffb74a;
+  border-radius: 4px;
+}
+.hot_list li.lar p.txt_deta{
+  font-size: 14px;
+  color: #688390;
+  padding: 10px 0 0 24px;
+}
+/*列表中小图片的样式*/
+.sml_box{
+  width: 314px;
+  position: relative;
+}
+.sml_box a{
+  display: block;
+  background: url("../images/event/sm_bor.png") no-repeat;
+  width: 314px;
+  height: 235px;
+  overflow: hidden;
+}
+.sml_box a:hover{
+  background: url("../images/event/sm_bor_hov.png") no-repeat;
+  width: 314px;
+  height: 235px;
+}
+.sml_box a img{
+  display: block;
+  border: 1px solid #c2eeff;
+  margin: 7px auto 0;
+  opacity: .8;
+  transition: all .2s ease;
+}
+.sml_box a img:hover{
+  opacity: 1;
+}
+.sml_box div.txt_box{
+  width: 298px;
+  position: absolute;
+  top: 182px;
+  left: 8px;
+  background: rgba(0,0,0,.8);
+  height: 45px;
+}
+.sml_box p.txt_tit{
+  height: 22px;
+  line-height: 20px;
+  padding-left: 17px;
+  padding-top: 12px;
+}
+.sml_box p.txt_tit b{
+  font-size: 14px;
+  color: #c2eeff;
+  margin-right: 7px;
+}
+.sml_box p.txt_tit span.sm_btn{
+  display: inline-block;
+  width: 70px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #061422;
+  text-align: center;
+  background: #ffb74a;
+  border-radius: 2px;
+}
+
+/*长条列表*/
+.hot_list li.sml_01{
+  width: 1000px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*新番表*/
+.my_tab{
+  width: 990px;
+  margin: 183px auto 0;
+  text-align: center;
+}
+.my_tab p.date_tit{
+  height: 51px;
+  line-height: 51px;
+  font-size: 24px;
+  color: #c2eeff;
+}
+.my_tab p.date_tit b{
+  width: 198px;
+  float: left;
+}
+.book_list li.no_mar{
+  margin:0;
+}
+.book_list{
+  overflow: hidden;
+  width:998px;
+}
+.book_list li{
+  margin-left: 2px;
+  width: 198px;
+  float:left;
+}
+dl.dj_box{
+  width: 190px;
+  position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
+  padding: 14px 0 14px 6px;
+}
+.dj_tit{
+  width: 94px;
+  padding-left: 8px;
+  font-size: 16px;
+  color: #c2eeff;
+  text-align: left;
+}
+.dj_tit em{
+  font-size: 13px;
+}
+.dj_name{
+  width: 105px;
+  font-size: 12px;
+  color: #688390;
+  line-height: 14px;
+  padding: 5px 0 0 8px;
+  text-align: left;
+}
+
+/*完结动画*/
+.tab{
+  position: relative;
+  padding-top: 175px;
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.tab_list{
+  width: 832px;
+  overflow: hidden;
+  margin-left: 102px;
+  position: relative;
+}
+.tabImg{
+  width:1664px;
+  overflow: hidden;
+}
+.tabImg ul{
+  width: 832px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  float: left;
+}
+.tabImg ul li{
+  float: left;
+  width: 176px;
+  margin-right: 32px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.tabImg ul li a{
+  display: block;
+  background: url("../images/event/slide_bor.png") no-repeat;
+  width: 176px;
+  height: 301px;
+  overflow: hidden;
+}
+.tabImg ul li a:hover{
+  background: url("../images/event/slide_bor_hov.png") no-repeat;
+}
+.tabImg ul li a img{
+  display: block;
+  margin: 5px auto 0;
+  opacity: .8;
+  transition: all .2s ease;
+}
+.tabImg ul li a img:hover{
+  opacity: 1;
+}
+.slide_info{
+  width: 166px;
+  position: absolute;
+  top: 226px;
+  left: 5px;
+  height: 69px;
+  background: rgba(0,0,0,.8);
+}
+.slide_info .info01 {
+  font-size: 18px;
+  color: #c2eeff;
+  padding-left: 7px;
+  padding-top: 10px;
+}
+.slide_info .info02 {
+  font-size: 12px;
+  color: #688390;
+  padding: 4px 0 0 7px;
+}
+
+
+
+
+
+
+.tab b.btn{
+  width: 25px;
+  height: 42px;
+  display: block;
+  position: absolute;
+  top: 500px;
+  background: url("../images/event/btn.png") no-repeat;
+}
+.tab b.tab_left{
+  background-position: 0 0;
+  left: 0;
+}
+.tab b.tab_left:hover{
+  background-position: -61px 0;
+  cursor: pointer;
+}
+.tab b.tab_right{
+  background-position: -33px 0;
+  right: 0;
+}
+.tab b.tab_right:hover{
+  background-position: -89px 0;
+  cursor: pointer;
+}

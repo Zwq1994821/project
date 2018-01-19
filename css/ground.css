@@ -1,0 +1,261 @@
+.header{
+  margin-bottom:0;
+}
+
+.welfare-list{
+  position: relative;
+  margin-top: -3px;
+  width: 100%;
+  height: 833px;
+  background: url("../images/ground/welfare_info_bg.jpg") top center;
+}
+.animate-light{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 833px;
+  background: url("../images/ground/welfare_bg_light.png") no-repeat center top;
+  animation: lightMove 5s both linear infinite;
+}
+.animate-girl{
+  background: url("../images/ground/sc_img_welAnm.png") no-repeat 0px 0px;
+  background-size: 790px 585px;
+  width: 240px;
+  height: 585px;
+  position: absolute;
+  top: 26px;
+  left: 50%;
+  margin-left: -767px;
+  animation: girlMove 5s both linear infinite;
+  transform-origin: top center;
+}
+.animate-ship{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -960px;
+  background: url("../images/ground/sc_img_welAnm.png") no-repeat -250px -280px;
+  background-size: 790px 585px;
+  width: 319px;
+  height: 121px;
+}
+.animate-bling{
+  position: absolute;
+  top: 313px;
+  left: 50%;
+  margin-left: 522px;
+  animation: blingPop 3s both linear infinite;
+  transform-origin: bottom center;
+  background: url("../images/ground/sc_img_welAnm.png") no-repeat -579px -280px;
+  background-size: 790px 585px;
+  width: 81px;
+  height: 56px;
+}
+.animate-eye{
+  background: url("../images/ground/sc_img_welAnm.png") no-repeat -670px -280px;
+  background-size: 790px 585px;
+  width: 38px;
+  height: 12px;
+  position: absolute;
+  top: 484px;
+  left: 50%;
+  margin-left: -18px;
+  animation: eyeBlink 3s both linear infinite;
+}
+
+/* bannaer-animation */
+@keyframes lightMove {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes girlMove {
+  0% {
+    transform: translate3d(0, 0px, 0) rotate3d(0, 0, 1, 0deg);
+  }
+  50% {
+    transform: translate3d(0, 20px, 0) rotate3d(0, 0, 1, 5deg);
+  }
+  100% {
+    transform: translate3d(0, 0px, 0) rotate3d(0, 0, 1, 0deg);
+  }
+}
+@keyframes blingPop {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(.8);
+    opacity: .5;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes eyeBlink {
+  0% {
+    transform: scaleY(1);
+  }
+  5% {
+    transform: scaleY(0);
+  }
+  10% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+/*左侧新闻列表*/
+.list-content-left{
+  float:left;
+  position: relative;
+  width: 540px;
+  height: 814px;
+  overflow: hidden;
+}
+.official{
+  height: 130px;
+  margin-top: 21px;
+  margin-bottom: 22px;
+  padding-top: 10px;
+  background: url("../images/ground/sc_img_welAnm.png") no-repeat -250px 0px;
+  background-size: 790px 585px;
+  width: 540px;
+}
+.bx-wrapper{
+  max-width: 100%;
+  width: 465px;
+  height:586px;
+  overflow: hidden;
+}
+.direction{
+  position: absolute;
+  bottom: 0;
+  left:50%;
+  height:30px;
+  margin: 15px auto 0;
+}
+.direction a{
+  float: left;
+  display: block;
+  margin: 0 5px 0;
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/ground/sc_img_welfare.png");
+  background-repeat: no-repeat;
+}
+.bx-prev{
+  background-position: -334px -459px;
+}
+.bx-prev:hover{
+  background-position: -414px -459px;
+}
+.bx-next{
+  background-position:-454px -459px;
+}
+.bx-next:hover{
+  background-position:-374px -459px;
+}
+/*右侧新闻列表*/
+.list-content-right{
+  float:right;
+  position: relative;
+  width: 540px;
+  height: 814px;
+  overflow: hidden;
+}
+.bg-position{
+  background-position: -250px -140px;
+}
+
+/*新闻列表的样式*/
+.list-content-left ul.news-list>li{
+  width: 465px;
+  height: 182px;
+  margin-bottom: 20px;
+  background: url("../images/ground/sc_img_welfare.png") no-repeat -214px -192px;
+}
+.list-content-right ul.news-list>li{
+  width: 465px;
+  height: 182px;
+  margin-bottom: 20px;
+  background: url("../images/ground/sc_img_welfare.png") no-repeat -214px 0px;
+}
+
+.official dl.title dt{
+  width: 155px;
+  height: 110px;
+  border-right: 1px dashed #f7f7f7;
+}
+.official dl.title dt img{
+  display: block;
+  margin: 5px auto 0;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 69px;
+  height: 69px;
+}
+.official dl.title dt p{
+  margin: 5px auto 0;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+.official dl.title dd{
+  margin-top: 15px;
+  padding-left: 18px;
+  padding-right: 28px;
+  width: 336px;
+  font-size: 14px;
+  line-height: 27px;
+  color: #fff;
+}
+.news-list dl.content dt{
+  float: left;
+  margin-top: 18px;
+  margin-left: 32px;
+  border-radius: 32px;
+  width: 109px;
+  height: 142px;
+  overflow: hidden;
+}
+.news-list dl.content dt img{
+  display: block;
+  height: 142px;
+  margin-left: -78.5px;
+}
+.news-list dl.content dd{
+  float: left;
+  margin-left: 18px;
+  width: 285px;
+}
+.news-list dl.content dd h4{
+  margin-top: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: bold 16px/22px "Microsoft YaHei";
+  color: #333;
+}
+.news-list dl.content dd p{
+  margin-top: 11px;
+  margin-bottom: 11px;
+  height: 69px;
+  font-size: 14px;
+  line-height: 23px;
+  color: #666;
+}

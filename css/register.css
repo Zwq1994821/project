@@ -1,0 +1,86 @@
+/*登陆页面样式*/
+body{
+  background:#fff;
+}
+/*页头*/
+.header{
+  height:86px;
+  background:url(../images/login/rl_topbg.png);
+  margin-bottom:0;
+}
+.top{
+  height:106px;
+  background:url("../images/login/rl_top.png") no-repeat;
+  background-size:100% 100%;
+}
+.top-txt{
+  height:25px;
+  border-bottom:2px solid #ddd;
+  margin-top:20px;
+}
+.top-txt p{
+  width: 120px;
+  height: 47px;
+  margin: 0 auto;
+}
+
+/*页面表单样式*/
+
+.alert{
+  text-align: center;
+  margin-top:75px;
+  font-size: 40pt;
+  display: none;
+}
+
+.myform{
+  margin:50px auto 0;
+}
+.myform li{
+  line-height: 50px;
+  margin-left:375px;
+}
+.myform li.form-group input{
+  width:410px;
+  height:10px;
+  border-radius: 4px;
+  border:1px solid #ddd;
+  padding:10px;
+}
+.myform li.form-group span.help-block{
+  color:red;
+  display: none;
+}
+#checkbox{
+  position: relative;
+  top:3px;
+}
+#phone{
+  width:300px;
+}
+.get-btn{
+  display: inline-block;
+  width:105px;
+  height:32px;
+  line-height: 32px;
+  text-align: center;
+  margin:0;
+  padding:0;
+  border-radius: 4px;
+  background:#ff8400;
+  color: #fff;
+}
+.get-btn:hover{
+  color:#fff;
+  cursor: pointer;
+}
+#register-btn{
+  width:432px;
+  height:30px;
+  margin:0;
+  padding:0;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  background:#ddd;
+  color:#fff;
+}

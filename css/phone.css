@@ -1,0 +1,256 @@
+.main{
+  height: 100%;
+  position: relative;
+  transform: translate3d(0px, 0px, 0px);
+  transition: all 0.7s ease-out;
+}
+/*第一部分*/
+.main #page1 {
+  height: 648px;
+  background-color: #0E0E0E;
+  overflow: hidden;
+}
+.page1_background{
+  background: rgba(0, 0, 0, 0) url(../images/phone/index-scrap_01.png) no-repeat scroll center top;
+  height: 100%;
+  padding-top: 1px;
+  width: 100%;
+}
+.page1_main{
+  background-color: transparent;
+  background-image: url(../images/phone/index.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  height: 800px;
+  margin: 70px auto 0;
+  position: relative;
+  transition: all 1s ease-out 800ms;
+  width: 1200px;
+}
+.page1_main div.title{
+  padding-left: 154px;
+  text-align: center;
+}
+.page1_main div.title img{
+  height: 120px;
+  margin-right: 36px;
+  vertical-align: middle;
+  width: 120px;
+}
+.page1_main div.title p.title_txt{
+  vertical-align: middle;
+  display: inline-block;
+}
+.page1_main div.title p.title_txt span:first-child{
+  color:#fff;
+  font-family:"microsoft yahei";
+  font-size: 48px;
+  margin: 0;
+}
+.page1_main div.title p.title_txt span:last-child{
+  color:#fff;
+  font-family:"microsoft yahei";
+  font-size: 30px;
+  margin: 0;
+ }
+
+/*下载列表*/
+.downLoad{
+  margin-left: 683px;
+  position: relative;
+  width: 240px;
+  z-index: 3;
+}
+.downLoad ul li{
+  margin-top: 16px;
+}
+.downLoad ul li a{
+  background-color: rgba(255, 255, 255, 0.25);
+  color: rgb(255, 255, 255);
+  display: block;
+  font-family:"microsoft yahei";
+  font-size: 24px;
+  width: auto;
+  background-position: 30px center;
+  background-repeat: no-repeat;
+  padding: 15px 0px 15px 100px;
+  transition: all 800ms ease-in-out 0s;
+}
+.downLoad ul li a.android{
+  background-image: url(../images/phone/android.png);
+}
+.downLoad ul li a.iphone{
+  background-image: url(../images/phone/iphone.png);
+}
+.downLoad ul li a.ipad{
+  background-image: url(../images/phone/ipad.png);
+}
+.downLoad ul li a.iphone{
+  background-image: url(../images/phone/iphone.png);
+}
+.downLoad ul li a:hover{
+  background-color: rgba(50, 50, 50, 0.5);
+  background-position: 20px center;
+}
+.downLoad ul li img{
+  width: 90px;
+  vertical-align: middle;
+}
+.downLoad ul li span{
+  float:right;
+  color: rgb(255, 255, 255);
+  font-family:"microsoft yahei";
+  font-size: 24px;
+  padding: 15px 0px 15px 10px;
+}
+
+/*手机图片*/
+.page_main_img{
+  box-shadow: 10px 10px 50px -10px #000;
+  display: block;
+  height: auto;
+  left: 464px;
+  position: absolute;
+  transform: perspective(19000px) rotateX(42deg) rotateY(0deg) rotateZ(28deg);
+  transform-origin: 50% -30% 0;
+  width: 313px;
+}
+.img1{
+  opacity: 1;
+  top: 312px;
+  transition: all 1s ease-in-out 1s;
+}
+.img1_before{
+  z-index:1;
+}
+.img2{
+  opacity: 1;
+  top: 287px;
+  transition: all 1s ease-in-out 2s;
+}
+.img2_before{
+  z-index:2;
+}
+
+/*第二部分*/
+.main #page2{
+  height: 648px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.page2_main{
+  height: 986px;
+  position: relative;
+  text-align: center;
+}
+.page2_title{
+  padding-top:40px;
+  padding-bottom:70px;
+  font-family: "microsoft yahei";
+}
+.page2_title h2{
+  font-size: 60px;
+  font-weight: normal;
+  color: #000;
+}
+.page2_title h3{
+  font-size: 34px;
+  font-weight: normal;
+  color:#000;
+}
+.phone_view{
+  background: transparent url(../images/phone/phone_view.png) no-repeat scroll center center;
+  height: 653px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 311px;
+  z-index: 2;
+}
+.imgList{
+  position: absolute;
+  top: 319px;
+  width: 1600px;
+  z-index: 1;
+  left:543px;
+}
+
+.imgList img{
+  float: left;
+  height: auto;
+  transform-origin: 50% 50% 0;
+  transition: all 800ms ease-in-out 0s;
+  width: 264px;
+  position: relative;
+  z-index: 10;
+}
+.rotated{
+  transform: perspective(400px) rotateX(0deg) rotateY(-15deg) rotateZ(0deg);
+}
+
+/*第三部分*/
+.main #page3{
+  height: 648px;
+  background-color: #e0e0e0;
+  overflow: hidden;
+}
+.page3_main{
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.page3_title{
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  width: 100%;
+  z-index: 3;
+  color: #000000;
+  font-family:"microsoft yahei";
+}
+.page3_title h2{
+  font-size: 50px;
+  margin-bottom: 5px;
+  font-weight: normal;
+  user-select: none;/*禁止文字选中*/
+}
+.page3_title h3{
+  font-size: 29px;
+  font-weight: normal;
+  user-select: none;/*禁止文字选中*/
+}
+.page3_down{
+  background-color: #e0e0e0;
+  background-image: url("../images/phone/page_down.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.page3_up{
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.page3_up_showImg{
+  width: 1366px;
+  background-color: #d93c0c;
+  background-image: url("../images/phone/page3_up.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.scrollButton{
+  display: inline;
+  background: url("../images/phone/scrollButton.png") no-repeat scroll center center;
+  height: 66px;
+  left: 167px;
+  position: absolute;
+  top: 68%;
+  width: 66px;
+  z-index: 3;
+}

@@ -1,0 +1,183 @@
+/*改变滚动条默认样式*/
+::-webkit-scrollbar
+{
+  /*改变滚动条的默认宽度*/
+  width: 6px;
+}
+::-webkit-scrollbar-track-piece
+{
+  /*改变滚动条的默认背景色*/
+  background-color: #333;
+}
+::-webkit-scrollbar-thumb:vertical
+{
+  /*滚动条颜色*/
+  background-color: #5F5F5F;
+  -webkit-border-radius: 6px;
+}
+
+
+
+.top{
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-width: 1000px;
+  height: 55px;
+}
+.top_logo{
+  float:left;
+  height:55px;
+  width:110px;
+  line-height: 55px;
+  margin-top:5px;
+}
+.logo_h{
+  margin-top:7px;
+}
+.top-main{
+  width:100%;
+  height:50px;
+  background:#292929;
+  position:fixed;
+  top:0;
+  left:0;
+  color: #b0b0b0;
+  font-size: 15px;
+  line-height: 50px;
+}
+.top-btn{
+  width:113px;
+  height:50px;
+  float:left;
+  margin-left:35px;
+}
+.qp{
+  cursor: pointer;
+}
+.fk{
+  cursor: pointer;
+}
+.crumbs{
+  height:50px;
+  text-align: center;
+  float:left;
+  margin-left:300px;
+}
+
+/*主体内容*/
+.main{
+  margin-top:55px;
+}
+.main li{
+  width:780px;
+  margin:10px auto 40px;
+}
+
+.next-btn a{
+  display: block;
+  width:150px;
+  text-align: center;
+  margin:0 auto;
+  padding:5px 0;
+  font-size: 30px;
+  border-radius: 22px;
+  background:#292929;
+}
+.next-btn a:hover{
+  color:#fff;
+}
+
+.control_list{
+  padding-top: 25px;
+  width: 370px;
+  margin: 0 auto 80px;
+  overflow: hidden;
+}
+.control_list li{
+  float: left;
+  display: inline-block;
+  position: relative;
+  padding-top: 20px;
+  margin-right: 80px;
+  cursor: pointer;
+}
+.control_list li:last-child{
+  margin-right:0;
+}
+.control_list li dl dt{
+  width: 70px;
+  height: 70px;
+  font-size: 70px;
+  line-height: 70px;
+  display: block;
+  z-index: 2;
+  text-align: center;
+  padding-top: 4px;
+  background: url(../images/taowang/all_icon_dm.png) no-repeat;
+}
+.control_list li dl dt.sc{
+  background-position: -14px -639px;
+}
+.control_list li dl dt.sc:hover{
+  background-position: -14px -725px;
+}
+.control_list li dl dt.yp{
+  background-position: -317px -639px;
+}
+.control_list li dl dt.yp:hover{
+  background-position: -317px -725px;
+}
+.control_list li dl dt.ds{
+  background-position: -166px -638px;
+}
+.control_list li dl dt.ds:hover{
+  background-position: -166px -724px;
+}
+.control_list li dl dd{
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  padding-top: 4px;
+  color: #f98629;
+}
+/*底部栏固定*/
+.bottom_fixed{
+  width: 100%;
+  height:33px;
+  line-height: 33px;
+  padding-top:10px;
+  color:#B0B0B0;
+  font-size: 15px;
+  position: fixed;
+  bottom:0;
+  background:#292929;
+  opacity: 0.8;
+}
+/*开灯*/
+.light{
+  margin:0 auto;
+  width:50px;
+  height:28px;
+  background: url(../images/taowang/all_icon_dm.png) no-repeat -253px -19px;
+  position: absolute;
+  top:10px;
+  left:50%;
+}
+.close{
+  margin:0 auto;
+  width:50px;
+  height:28px;
+  background: url(../images/taowang/all_icon_dm.png) no-repeat -253px -343px;
+  position: absolute;
+  top:10px;
+  left:50%;
+}
+.light:hover{
+  background-position: -253px -74px;
+}
+.close:hover{
+  background-position: -253px -400px;
+}

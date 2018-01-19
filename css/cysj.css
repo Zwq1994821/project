@@ -1,0 +1,293 @@
+.bg1{
+  width:100%;
+  height:300px;
+  background:url("../images/cysj/bg1.jpg")no-repeat center center;
+}
+.bg1:before,.bg2:before,.bg3:before,.bg4:before,.bg5:before,.bg6:before,#bg7:before{
+  content: ' ';
+  display: table;
+}
+.title{
+  background: url("../images/cysj/title.png") no-repeat;
+  margin: 255px auto 0;
+  animation: bigIn 1s ease both;
+  width: 784px;
+  height: 354px;
+  position: relative;
+}
+/*标题动画*/
+@keyframes bigIn{
+  0%{
+    transform:scale(3,3);
+    opacity:0
+  }
+  95%{
+    transform:scale(.95,.95);
+    opacity:1
+  }
+  100%{transform:scale(1,1);
+    opacity:1
+  }
+}
+.bg2{
+  width:100%;
+  height:300px;
+  background:url("../images/cysj/bg2.jpg")no-repeat center center;
+}
+/*视频*/
+.video{
+  width: 962px;
+  background: #000;
+  margin: 315px auto 0;
+  z-index: 12;
+  height: 645px;
+}
+.video video{
+  width:962px;
+}
+.video_block{
+  width:962px;
+  height:160px;
+  background:#353535;
+  position: relative;
+  z-index: 100;
+  padding:20px 30px;
+  box-sizing: border-box;
+}
+.video_block a{
+  float:left;
+  width:48px;
+  height:25px;
+  text-align: center;
+  line-height: 25px;
+  margin-left:8px;
+  margin-top:12px;
+  background:#585858;
+  font-size: 15px;
+  color:#fff;
+  font-weight:bold;
+}
+.bg3{
+  width:100%;
+  height:300px;
+  background:url("../images/cysj/bg3.jpg")no-repeat center center;
+}
+.bg4{
+  width:100%;
+  height:300px;
+  background:url("../images/cysj/bg4.jpg")no-repeat center center;
+}
+.bg5{
+  width:100%;
+  height:600px;
+  background:url("../images/cysj/bg5.jpg")no-repeat center center;
+}
+.content_5{
+  width:1000px;
+  height:257px;
+  margin:258px auto 0;
+}
+.content_5 h3.ti01{
+  color: #4bcaff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 438px;
+  width: 113px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+}
+.content_5 p.show{
+  width: 525px;
+  color: #4dbbff;
+  font-size: 14px;
+  line-height: 36px;
+  margin: 15px 0 0 438px;
+}
+.content_5 a.look_btn{
+  display: block;
+  background: url("../images/cysj/btn.png") no-repeat;
+  width: 196px;
+  height: 72px;
+  text-indent: -9999px;
+  overflow: hidden;
+  margin: 30px 0 0 436px;
+}
+.content_5 a.look_btn:hover {
+  background-position: 0 -72px;
+}
+.bg6{
+  width:100%;
+  height:600px;
+  background:url("../images/cysj/bg6.jpg")no-repeat center center;
+}
+.list01{
+  width:1000px;
+  margin:80px auto 0;
+  padding-top: 20px;
+  height: 160px;
+  overflow: hidden;
+}
+.list01 li{
+  float: left;
+  width: 340px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 125px;
+}
+.list01 li a{
+  color: #47adef;
+  font-size: 14px;
+}
+.list01 li i{
+  display: inline-block;
+  background: url("../images/cysj/bt.png") no-repeat;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+#bg7{
+  width:100%;
+  height:600px;
+  background:url("../images/cysj/bg7.jpg")no-repeat center center;
+}
+.content_7{
+  width:1000px;
+  height:100px;
+  margin:0 auto;
+  position: relative;
+}
+.content_7 ul{
+  position: relative;
+  float:left;
+}
+.content_7 ul li{
+  width: 152px;
+  height: 169px;
+  background: url("../images/cysj/tab_btn.png") no-repeat;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+}
+#btn1{
+  top:-180px;
+  left:45px;
+}
+#bg7 li.btn1_active{
+  background-position: 0 -169px;
+}
+#btn2{
+  top:-65px;
+  left:105px;
+  background-position: -152px 0;
+}
+#bg7 li.btn2_active{
+  background-position: -152px -169px;
+}
+#btn3{
+  top:50px;
+  left:45px;
+  background-position: -304px 0;
+}
+#bg7 li.btn3_active{
+  background-position: -304px -169px;
+}
+#btn4{
+  top:165px;
+  left:105px;
+  background-position: -456px 0;
+}
+#bg7 li.btn4_active{
+  background-position: -456px -169px;
+}
+.tab_txt{
+  position: absolute;
+  left: 0;
+  top: -238px;
+  width: 982px;
+  height: 600px;
+}
+.tab_txt div.txt{
+  width: 982px;
+  height: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.tab_txt div.txt_1{
+  background: url("../images/cysj/personage1.png") no-repeat;
+}
+.tab_txt div.txt_2{
+  background: url("../images/cysj/personage3.png") no-repeat;
+}
+.tab_txt div.txt_3{
+  background: url("../images/cysj/personage2.png") no-repeat;
+}
+.tab_txt div.txt_4{
+  background: url("../images/cysj/personage4.png") no-repeat;
+}
+.tab_txt div.txt p{
+  color: #4db5ff;
+  font-size: 14px;
+  padding-left: 263px;
+  width: 370px;
+}
+.name{
+  background: url("../images/cysj/title_bg.png") no-repeat;
+  color: #e21b10;
+  font-size: 28px;
+  width: 121px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  margin: 215px 0 0 259px;
+}
+.p1{
+  padding-top: 5px;
+}
+.p1 .b1{
+  padding-left: 80px;
+}
+.p2{
+  line-height: 28px;
+  padding-top: 5px;
+}
+.bg8{
+  width:100%;
+  height:280px;
+  background:url("../images/cysj/bg8.jpg")no-repeat center center;
+}
+.imglist{
+  width:1000px;
+  height:254px;
+  margin:0 auto;
+  position:relative;
+  top:-70px;
+}
+.imglist li{
+  float: left;
+  width: 180px;
+  height: 254px;
+  position: relative;
+  margin-right: 25px;
+  opacity: 0.6;
+  transition: opacity .3s linear;
+}
+.imglist li:hover{
+  opacity: 1;
+}
+.imglist li:last-child{
+  margin-right:0;
+}
+.imglist li p{
+  position: absolute;
+  left: 0px;
+  bottom: 6px;
+  width: 180px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  height: 28px;
+  line-height: 28px;
+}

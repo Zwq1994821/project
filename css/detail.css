@@ -1,0 +1,490 @@
+.header{
+  margin-bottom: 0;
+}
+/* nav_select 搜素框 */
+#nav_select{
+  width:470px;
+  height:52px;
+  margin:20px auto;
+}
+#nav_select>p{
+  width:461px;
+  height:44px;
+  vertical-align:middle;
+  border:4px solid #ECE8E6;
+  border-radius:5px;
+}
+#nav_select>p input{
+  width:380px;
+  height:36px;
+  background:#fff;
+  border:0;
+  outline:0;
+  padding:4px 6px;
+}
+#nav_select>p a{
+  float:right;
+  width:68px;
+  height:44px;
+  background:url(../images/ac_global.png) no-repeat 0 -605px;
+}
+#nav_select>p a:hover{
+  background-position:-76px -651px;
+}
+#nav_select>p a:active{
+  background-position:-152px -651px;
+}
+
+/*main主体部分*/
+.main-content{
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+}
+/*左侧动漫详情介绍*/
+.works-intro{
+  width:880px;
+  height:478px;
+  border:1px solid #ddd;
+  padding-bottom: 16px;
+  background:#fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.Cartoon-content{
+  width:880px;
+  height:342px;
+  padding-bottom:10px;
+}
+.works-cover{
+  float:left;
+  width: 250px;
+  height: 308px;
+  margin: 34px 20px 0 20px;
+  background: url("../images/detail/page_works_sprite.png") no-repeat 1px 0;
+  position: relative;
+}
+.works-cover>img{
+  position: absolute;
+  top:2px;
+  left:20px;
+}
+.intro-detail{
+  width: 574px;
+  float: left;
+}
+.intro-text{
+  width: 100%;
+  margin: 34px 0 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #999;
+}
+.intro-head{
+  width:574px;
+  height:44px;
+  display: flex;
+}
+.intro-title{
+  padding-bottom: 10px;
+  margin-right: 10px;
+  font-size: 32px;
+  font-family: "microsoft yahei";
+  font-weight: normal;
+}
+.intro-head i{
+  background-image: url(../images/ac_global.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width:31px;
+  height:19px;
+  margin-left:10px;
+  position: relative;
+  top:10px;
+}
+.icon-sign{
+  background-position: -135px -272px;
+}
+.icon-bout{
+  background-position: -167px -292px;
+}
+.icon-exclusive{
+  background-position: -66px -407px;
+}
+/*评分*/
+.works-score{
+  height: 22px;
+  display: flex;
+  line-height: 22px;
+}
+.score-act{
+  margin-right:10px;
+}
+.score-act>img{
+  vertical-align: middle;
+
+}
+.text-orange{
+  color:#FF9A6A;
+}
+/*作者*/
+.intro-digi{
+  padding: 20px 0 10px 0;
+}
+.intro-digi>span{
+  padding-right: 10px;
+}
+/*动漫介绍*/
+.intro-short{
+  width: 100%;
+  color: #999;
+  height: 54px;
+  line-height: 18px;
+  overflow: hidden;
+}
+.intro-active{
+  width:574px;
+  height:90px;
+  float:right;
+  margin-top:20px;
+}
+/*开始阅读*/
+.read-btn{
+  float:left;
+  width:112px;
+  height:45px;
+  border:1px solid #EC7D4D;
+  background:#F89157;
+  border-radius: 3px;
+  color:#fff;
+  text-align: center;
+  font: 18px/46px 微软雅黑;
+  margin-right:20px;
+}
+.read-btn:hover{
+  background:#F59966;
+  color:#fff;
+}
+.button-wr{
+  float: left;
+  position: relative;
+  border: 1px solid #dddad6;
+  border-radius: 3px;
+  margin-top: 5px;
+  display: flex;
+}
+.button-wr>li{
+  width:40px;
+  height:40px;
+  padding-left:40px;
+  background:#FFFBF6 url(../images/detail/ac.all_money.png) no-repeat;
+  color: #b6724d;
+  line-height: 40px;
+  font-family: "Microsoft YaHei";
+  font-size: 16px;
+}
+.button-wr>li:hover{
+  background-color: #FCF1E1;
+}
+
+.button-wr>li.unfav{
+  background-position: -164px -102px;
+}
+.button-wr>li.ticket{
+  background-position: -96px -47px;
+}
+.button-wr>li.playtour{
+  background-position: -215px -47px;
+}
+.button-wr>li.png-plays{
+  background: url(../images/detail/ac.all_money.png) no-repeat -309px -366px;
+  width: 66px;
+  height: 56px;
+  position: absolute;
+  top: -38px;
+  right: -17px;
+  display: block;
+  padding:0;
+}
+  /*投票*/
+.vote{
+  margin-top: 11px;
+  padding-top: 16px;
+  border-top: 1px dashed #999;
+}
+.vote-list{
+  width: 204px;
+  height: 108px;
+  position: relative;
+  float:left;
+}
+.vote-list>li{
+  float: left;
+  width: 58px;
+  margin-left: 30px;
+  text-align: center;
+}
+.vote-btn{
+  display: block;
+  width: 58px;
+  height: 58px;
+  margin: 3px 0 8px 0;
+  border-radius: 58px;
+  background-image: url(../images/detail/page_works_sprite.png);
+  background-repeat: no-repeat;
+}
+.vote-red{
+  background-position: -338px -61px;
+}
+.vote-red:hover{
+  background-position: -338px -120px;
+}
+.vote-black{
+  background-position: -397px -61px;
+}
+.vote-black:hover{
+  background-position: -397px -120px;
+}
+.border-right{
+  background: url(../images/detail/page_works_sprite.png) no-repeat -336px -464px;
+  width: 1px;
+  height: 114px;
+  position: absolute;
+  top: -4px;
+  right: 0;
+}
+.status{
+  float:left;
+  width: 636px;
+  height: 104px;
+  margin: 2px 0 0 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.status>li{
+  width:78px;
+  transition: all .3s cubic-bezier(0.17,-0.32, 0.08, 0.62);
+}
+.status>li:hover{
+  box-shadow: 0 0 20px #000;
+  transform:scale(1.1);
+}
+/*右侧作者信息和其他作品*/
+.works-right{
+  width:299px;
+  height:495px;
+}
+.author{
+  position: relative;
+  width: 299px;
+  height: 298px;
+  z-index: 1;
+  background: url(../images/detail/page_works_sprite.png) no-repeat -1px -315px;
+}
+.author-intro{
+  height: 115px;
+  overflow: hidden;
+}
+.author-face{
+  margin: 22px 16px 0 22px;
+  border-radius: 2px;
+  width: 93px;
+  height: 93px;
+  float: left;
+}
+.author-info{
+  position: relative;
+  width: 154px;
+  margin-top: 22px;
+  float: left;
+}
+.author-info>dt{
+  padding-bottom: 8px;
+}
+.author-name{
+  font: normal 16px/16px "微软雅黑";
+  color: #555;
+}
+.author-info>dd{
+  line-height: 22px;
+}
+.author-count{
+  color: #666;
+}
+.author-title{
+  margin: 28px 0 0 27px;
+  font: normal 16px/16px "微软雅黑";
+  color: #fff;
+}
+.author-notice{
+  width: 256px;
+  height: 96px;
+  margin: 20px 0 0 24px;
+  line-height: 24px;
+  overflow: hidden;
+  font-family: "宋体";
+}
+.author-robe{
+  position: absolute;
+  top: 7px;
+  right: -6px;
+  width: 6px;
+  height: 15px;
+  background: url(../images/detail/page_works_sprite.png) no-repeat -300px -322px;
+}
+.author-img{
+  margin-top:10px;
+}
+.author-img img:hover{
+  border-color: #ff9a6a;
+  box-shadow: 0 0 14px #ff9a6a;
+}
+/*章节列表*/
+.chapter{
+  height: 304px;
+  padding-bottom: 34px;
+  overflow: hidden;
+  border: 1px solid #e0dedc;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background: #fff url(../images/detail/page_works_stack_bg.png) 0 bottom repeat-x;
+  margin-top:50px;
+}
+.xone-menu{
+  height: 52px;
+  border-bottom: 1px solid #dbd9d6;
+}
+.xone-menu li{
+  float:left;
+}
+.xone-menu li.active a{
+  line-height: 53px;
+  font-family: "Microsoft YaHei";
+  color: #555;
+  font-size: 24px;
+  text-align: center;
+  padding: 0 25px;
+  position: relative;
+  display: block;
+  border-right: 1px solid #dbd9d6;
+  height: 49px;
+  border-bottom: 4px solid #ff9a6a;
+}
+.chapter-list{
+  height: 250px;
+  overflow: hidden;
+}
+.chapter-list li p{
+  width: 1200px;
+  height: 50px;
+  padding-left: 28px;
+  background: url(../images/detail/page_works_chapter_bg.png) 0 bottom no-repeat;
+}
+.chapter-item{
+  float: left;
+  width: 294px;
+  padding-top: 20px;
+  overflow: hidden;
+}
+.chapter-item a{
+  float: left;
+  margin-right: 5px;
+  font-size: 14px;
+  color: #333;
+}
+.chapter-item i{
+  margin: 1px 0 0 2px;
+  float: left;
+  width: 15px;
+  height: 15px;
+  background-image: url(../images/ac_global.png);
+  background-repeat: no-repeat;
+}
+.icon-free{
+  background-position: -135px -312px;
+}
+.icon-wnew{
+  background-position: -167px -312px;
+}
+
+/*评论区*/
+.pl{
+  width:100%;
+  border:1px solid #ddd;
+  margin-top:40px;
+  background:#fff;
+}
+.pl-title{
+  padding: 12px 0 12px 25px;
+  border-bottom: 1px solid #dddcdd;
+  font: 24px "Microsoft Yahei";
+  color: #333;
+}
+.pl-main{
+  padding: 18px 26px 0 26px;
+}
+.pl-main li{
+  position: relative;
+  background: url(../images/detail/bg_commen.png) repeat-y;
+  margin: 12px 0;
+  border: 1px solid #dcdbdc;
+  width: 100%;
+  height:100px;
+  padding:20px 10px;
+  box-sizing: border-box;
+}
+.userhead{
+  float: left;
+  width: 12%;
+  position: relative;
+  /* background: url(../images/page_works_sprite.png) -428px -238px no-repeat; */
+}
+.userhead img{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+.usertxt{
+  float: left;
+  width: 85.5%;
+  margin-left: -1px;
+  background-color: #fff;
+  padding: 12px 0 10px;
+  line-height: 40px;
+}
+.user-import{
+  width:100%;
+  margin-bottom:12px;
+  padding: 18px 26px 0 26px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.import-top{
+  width: 945px;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid #ffb7ff;
+  background: #FFBF7E;
+  padding: 8px 20px;
+  font-size: 20px;
+  color:#fff;
+  font-weight: bold;
+}
+.user-import textarea{
+  width:86%;
+  height:100px;
+  float: left;
+  border:1px solid #ddd;
+  padding:20px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 15px;
+}
+.user-import button{
+  width:100px;
+  height:30px;
+  margin-top:72px;
+  border:1px solid #ff8400;
+  border-radius: 5px;
+  background:#ff8400;
+  color:#fff;
+  margin-left:10px;
+  outline: 0;
+}
