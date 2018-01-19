@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>旋风动漫-用户登录</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/head_logo.png">
+  <link rel="stylesheet" href="css/public.css"/>
+  <link rel="stylesheet" href="css/register.css"/>
+</head>
+<body>
+
+<!--头部-->
+<div class="header">
+  <div class="container">
+    <div class="top"></div>
+  </div>
+</div>
+<div class="container">
+  <div class="top-txt">
+    <p><img src="images/register/t1.png" alt="登陆"/></p>
+  </div>
+</div>
+
+<!--注册页面保单部分-->
+<div class="container">
+  <p class="alert"></p>
+  <form>
+    <ul class="myform">
+      <li class="form-group">
+        <input id="uname" type="text" name="uname" placeholder="用户名（例如：旋风动漫）" required/>
+        <span class="help-block">用户名格式不正确</span>
+      </li>
+      <li class="form-group">
+        <input id="password" type="password" name="upwd" placeholder="密码（6-16个字符组成，区分大小写）" minlength="6" maxlength="16"/>
+        <span class="help-block">填写的密码格式不正确哦</span>
+      </li>
+      <li class="form-group">
+        <input type="number" name="unumber" placeholder="填写常用手机号"/>
+      </li>
+      <li class="form-group">
+        <input id="phone" type="text" name="*" placeholder="手机验证码"/>
+        <a class="get-btn">点击获取</a>
+      </li>
+      <li>
+        <input id="checkbox" type="checkbox" name="checkbox"/><label for="checkbox">我已同意《旋风动漫网用户使用协议》和《旋风动漫网账号中心规范》</label>
+      </li>
+      <li>
+        <input type="button" id="register-btn" value="注册" disabled/>
+      </li>
+    </ul>
+  </form>
+</div>
+
+
+<div id="footer"></div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>
